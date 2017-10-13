@@ -1,0 +1,27 @@
+.github-wrapper{
+	margin-top: 20px;
+}
+.github-table-wrapper{
+	margin-top: 20px;
+}
+.github-table th{
+	text-align: center
+}
+.github-table th, .github-table td{
+	text-align: center;
+	vertical-align: middle;
+}
+.github-table th:nth-child(1), .github-table td:nth-child(1){
+	width: 20%;
+}
+
+.github-table th:nth-child(2), .github-table td:nth-child(2){
+	width: 30%;
+}
+.github-table th:nth-child(3), .github-table td:nth-child(3){
+	width: 50%;
+}
+
+.github-table tr td img{
+	width: 40%;
+}
