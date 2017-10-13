@@ -24,6 +24,6 @@ $cd ~/path/to/gl-nodejs-test-skill/client/
 $node app.js
 ```
 
-the client will be running on localhost:3000
+the client will be running on localhost:3001
 
 # Enjoy!
