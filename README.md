@@ -26,4 +26,4 @@ $node app.js
 
 the client will be running on localhost:3000
 
-#Enjoy!
+# Enjoy!
