@@ -1,2 +1,43 @@
-<div class="container">
+<div class="container github-wrapper">
+	<div class="field has-addons">
+		<p class="control has-icons-left">
+			<input class="input" type="text" placeholder="GitHub ID" ng-model="githubId">
+			<span class="icon is-left">
+				<i class="fa fa-github"></i>
+			</span>
+	  	</p>
+		<p class="control">
+			<a class="button is-info" ng-click="search()">
+			Search
+			</a>
+	  	</p>
+	</div>
+	<div class="github-table-wrapper">
+		<table class="table is-hoverable is-fullwidth github-table">
+			<thead>
+				<th>
+					Avatar
+				</th>
+				<th>
+					Login
+				</th>
+				<th>
+					URL
+				</th>
+			</thead>
+			<tbody>
+				<tr ng-repeat="follower in followers">
+					<td>
+						<img src="{{follower.avatar_url}}">
+					</td>
+					<td>
+						{{follower.login}}
+					</td>
+					<td>
+						<a href="{{follower.html_url}}" target="_blank">{{follower.html_url}}</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
